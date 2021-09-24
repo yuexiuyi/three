@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Three from './demo2/Three';
+import Line from './demo/Line.jsx';
+import Text from './demo/Text.jsx';
 import logo from './logo.svg'
 import './App.css'
 
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <Three/>
+      {/* <Line/> */}
+      <Text/>
     </div>
   )
 }

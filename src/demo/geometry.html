@@ -14,8 +14,8 @@
 			var scene = new THREE.Scene(); //场景
       var camera = new THREE.PerspectiveCamera( 75, window.innerHeight / window.innerWidth, 0.1, 1000);
       //相机 参数（视野角度、长宽比、远剪切面、近剪切面）
-      var renderer = new THREE.WebGLRenderer(); //渲染期
-      renderer.setSize( window.innerWidth, window.innerHeight );
+      var renderer = new THREE.WebGLRenderer(); //渲染器
+      renderer.setSize( window.innerWidth, window.innerHeight );//将使得你的应用程序分辨率来进行渲染。
       document.body.appendChild( renderer.domElement );
 
       var geometry = new THREE.BoxGeometry( 1, 1, 1); //立方体对象
